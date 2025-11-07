@@ -1,0 +1,19 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.8",
+   "Default View_TopLeft":"-495,210",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace inst corner_fifo -pg 1 -lvl 1 -x 100 -y 410 -defaultsOSRD
+preplace inst surf_fifo -pg 1 -lvl 2 -x 440 -y 400 -defaultsOSRD
+preplace inst axi_dma_surf -pg 1 -lvl 1 -x 100 -y 160 -defaultsOSRD
+preplace inst fifo_interconnect -pg 1 -lvl 2 -x 440 -y 140 -defaultsOSRD
+levelinfo -pg 1 -70 100 440 610
+pagesize -pg 1 -db -bbox -sgen -70 0 610 980
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
